@@ -1,0 +1,541 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --light-yellow: #fbffa7;
+  --orange: #ff764d;
+  --light-blue: #b1c5ff;
+  --light-pink: #d5b3ff;
+  --light-green: #b6ffc0;
+  --blue: #0000ff;
+}
+
+@font-face {
+  font-family: "Futura PT Web Medium";
+  src: url("./fonts/futura-pt-medium.b650e9c2aaf6.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT Web Book";
+  src: url("./fonts/futura-pt-book-oblique.f859db99cda9.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT Web Book Oblique";
+  src: url("./fonts/futura-pt-book.2dadbb3c03c1.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-small {
+  font-family: "Futura PT Web Book Oblique";
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.font-big {
+  font-family: "Futura PT Web Medium";
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 0.7em;
+  margin-top: 2em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: var(--orange);
+}
+.center {
+  margin: 2rem auto;
+  width: 53%;
+  padding: 1rem;
+}
+
+.heading-size {
+  font-size: 1.875rem;
+  line-height: 1.4;
+}
+
+.para-size {
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+/* Header styles */
+.nav1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 4.2rem;
+  padding: 1.2rem 2.4rem;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  font-weight: 400;
+  font-family: "Futura PT Web Medium";
+  overflow: hidden;
+}
+
+nav.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav1 .logo_img {
+  width: 100%;
+  height: 1.5em;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.nav1 .navbar ul {
+  display: flex;
+  gap: 25px;
+}
+
+.nav1 .navbar ul li {
+  list-style: none;
+}
+
+.login-reg .try_live {
+  margin-right: 20px;
+  color: var(--blue);
+}
+
+.login-reg .log {
+  font-size: 1rem;
+}
+
+/* nav2 */
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 4.2rem;
+  padding: 10px 40px;
+  font-weight: 400;
+  font-family: "Futura PT Web Medium";
+  font-size: 1rem;
+}
+
+/* main */
+.main {
+  width: 85%;
+  margin: 0 auto;
+  height: 80vh;
+  background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&fit=crop&fm=jpg&h=559&ixjsv=1.1.3&w=1138");
+  background-size: cover;
+  background-position: center;
+}
+
+main .main_heading {
+  font-size: 8rem;
+  color: #fd5948;
+  font-weight: 500;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Futura PT Web Medium";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Hero section */
+.hero_section {
+  margin: 3rem auto;
+}
+.hero_imgs-cont {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  overflow: hidden;
+}
+.hero_imgs-cont .right {
+  width: 60vw;
+  height: 120vh;
+  /* margin-left: 10px; */
+  background-color: var(--light-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-img-div {
+  width: 52%;
+  height: 40%;
+  background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=342&ixjsv=1.1.3&w=455");
+  background-size: cover;
+  background-position: center;
+  margin-left: 120px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.left-img-div {
+  width: 45vw;
+  height: 84vh;
+  background-image: url("https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=569&ixjsv=1.1.3&w=569s");
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+.hero_imgs-cont .left {
+  transform: translate(110px, 100px);
+}
+*/
+
+/* video section */
+.video-section {
+  margin-block: 6rem;
+}
+.video {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.video img {
+  width: 100%;
+}
+.video p {
+  font-size: 1rem;
+  margin: 4px;
+}
+.video button {
+  background-color: var(--blue);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.video button i {
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* hero section2 */
+
+/* .hero_imgs2 .right2 {
+  transform: translate(-100px, 120px);
+}
+.hero_imgs2 {
+  flex-direction: row-reverse;
+} */
+.hero_section-2 {
+  margin: 3rem auto;
+}
+.hero_imgs-cont-2 {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+.hero_imgs-cont-2 .right-2 {
+  width: 60vw;
+  height: 150vh;
+  /* margin-left: 10px; */
+  background-color: var(--light-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.right-img-div-2 {
+  width: 52%;
+  height: 40%;
+  background-image: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=228&ixjsv=1.1.3&q=50&w=304");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-left: 100px;
+}
+.right-img2-div-2 {
+  width: 52%;
+  height: 40%;
+  background-image: url("https://ableton-production.imgix.net/about/photo-4.jpg?fit=crop&h=342&ixjsv=1.1.3&w=455");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-left: 100px;
+}
+.left-img-div-2 {
+  width: 45vw;
+  height: 87vh;
+  background-image: url("https://ableton-production.imgix.net/about/photo-5.jpg?fit=crop&h=569&ixjsv=1.1.3&w=569");
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+.hero_imgs-cont-2 .left-2 {
+  transform: translate(-120px, 190px);
+}
+/* work section */
+.work-section .work {
+  width: 85%;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 95vh;
+  background-image: url("https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&fit=crop&fm=jpg&ixjsv=1.1.3&w=1138");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Employees section */
+.employees-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-y: hidden;
+  margin: 4rem auto;
+}
+.employess-background {
+  width: 70%;
+  height: 125vh;
+  background-color: var(--light-pink);
+  margin: 0 auto;
+}
+.employee-images {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.employee-images .emp-l-img {
+  width: 35%;
+  height: 60%;
+  transform: translate(6rem, 30%);
+}
+.employee-images .emp-r-img {
+  /* transform: translateY(-4rem); */
+  height: 90%;
+  width: 40%;
+}
+.employees-text {
+  margin: -4rem auto;
+}
+/* jobs section */
+.jobs-section {
+  margin: 5rem auto 0;
+  height: 100vh;
+  width: 100vw;
+}
+.jobs {
+  width: 92%;
+  height: 86%;
+  justify-content: center;
+  display: flex;
+  margin-inline: auto;
+}
+
+.jobs .job-image {
+  height: 100%;
+  width: 46%;
+  background-image: url("https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&fit=crop&h=569&ixjsv=1.1.3&w=569");
+  background-size: cover;
+  background-position: center;
+}
+.jobs .job-text {
+  height: 100%;
+  width: 46%;
+  background-color: #b1c5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job-text h2 {
+  width: 55%;
+  transform: translateY(-20px);
+}
+.job-text h2:last-child {
+  transform: translateY(-40px);
+  color: var(--blue);
+}
+
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: rgb(236, 232, 232);
+}
+/* footer */
+
+.footer-section {
+  width: 90%;
+  margin: 4rem auto 0;
+  padding: 20px;
+}
+.footer-section .footer-heading {
+  font-family: "Futura PT Web Medium";
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: start;
+  font-weight: lighter;
+  justify-content: space-between;
+  font-family: "Futura PT Web Book Oblique";
+}
+.footer h3 p {
+  font-size: 1.2rem;
+}
+.part-1,
+.part-2,
+.part-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+.part-1 .icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+.part-2 .chooser {
+  margin-top: 2.5rem;
+  display: inline-block;
+  width: 100%;
+  font-family: "Futura PT Web Book Oblique";
+}
+.chooser select {
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0.4em 0.75em;
+  background: transparent;
+  background-color: #eee;
+  border: 0;
+  user-select: none;
+  height: 1.875rem;
+  padding: 0.35em 50px 0.35em 0.75em;
+  border-radius: 0;
+  cursor: pointer;
+  color: #000;
+  font-family: "Futura PT Web Book Oblique";
+}
+.part-3 .inp {
+  display: flex;
+  width: 100%;
+  font-family: "Futura PT Web Book Oblique";
+}
+.part-3 .inp input {
+  width: 65%;
+  padding: 0.2em 0.5em;
+  font-family: "Futura PT Web Book Oblique";
+  background-color: #eee;
+  border: none;
+  font-size: 1.25rem;
+}
+.inp a {
+  display: inline-block;
+  background-color: var(--blue);
+  padding: 0.2em 0.9em;
+  color: white;
+  font-family: "Futura PT Web Book Oblique";
+}
+
+/* footer bar */
+.footer-bar {
+  margin: 4rem auto;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bar .footer-menu {
+  display: flex;
+  gap: 10px;
+}
+.footer-bar .branding {
+  display: flex;
+  font-size: 1rem;
+  gap: 10px;
+  font-weight: lighter;
+}
+
+/* responsive code */
+.menu-btn {
+  margin-top: 5px;
+  font-size: 1.25rem;
+  display: none;
+  cursor: pointer;
+}
+.menu-btn .bxs-down-arrow {
+  font-size: 0.5rem;
+}
+.menu-btn .bxs-up-arrow {
+  font-size: 0.5rem;
+}
+.menu-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--blue);
+  z-index: 1;
+  display: none;
+  transform: translateY(-100%);
+}
+.menu-overlay.active {
+  display: block;
+  transform: translateY(0);
+}
+div.res-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  color: white;
+  font-size: 1.25rem;
+  padding: 4rem 2rem;
+}
+div.res-nav ul li a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 1rem;
+}
+div.res-log {
+  display: flex;
+  flex-direction: column;
+}
+div.res-log a {
+  color: white;
+  padding-top: 1rem;
+}

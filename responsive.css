@@ -1,0 +1,259 @@
+@media screen and (max-width: 1128px) {
+  .font-small {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .font-big {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .nav1 .navbar ul {
+    gap: 17px;
+  }
+  .video-section {
+    margin-block: 0rem;
+  }
+  .video {
+    width: 70%;
+  }
+  .right2 img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  nav.navbar {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-btn .bxs-down-arrow {
+    display: inline-block;
+  }
+  .menu-overlay {
+    display: block;
+  }
+  .center {
+    margin: 2rem auto;
+    width: 70%;
+    padding: 1rem;
+  }
+  .employee-images .emp-l-img {
+    width: 35%;
+    height: 40%;
+    transform: translate(8%, 5%);
+  }
+  .employee-images .emp-r-img {
+    transform: translateY(-5rem);
+    height: 60%;
+    width: 40%;
+  }
+  .employees-section {
+    margin: 1rem 0;
+  }
+  .employess-background {
+    width: 70%;
+    height: 80vh;
+    background-color: var(--light-pink);
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  main .main_heading {
+    font-size: 5rem;
+  }
+  .font-small {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .font-big {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .hero_section2 .hero_text2 {
+    margin: 3rem auto;
+  }
+  .center {
+    margin: 2rem auto;
+    width: 90%;
+    padding: 1rem;
+  }
+  .hero_imgs-cont .right {
+    height: 90vh;
+  }
+  .left-img-div {
+    width: 45vw;
+    height: 70vh;
+  }
+  .video-section {
+    margin-block: 0rem;
+  }
+  .video {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .hero_imgs-cont .right {
+    height: 70vh;
+  }
+  .left-img-div {
+    width: 50vw;
+    height: 40vh;
+  }
+  .hero_section2 .hero_text2 {
+    margin: 1rem auto;
+  }
+  .work-section .work {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 430px) {
+  .main {
+    height: 100vh;
+  }
+  .hero_section2 .hero_text2 {
+    margin: 1rem auto;
+  }
+  .nav1 {
+    padding: 0.5rem 1.3rem;
+  }
+  .nav2 {
+    gap: 10px;
+    padding: 10px 20px;
+  }
+  .hero_imgs-cont .right {
+    height: 50vh;
+  }
+  .right-img-div {
+    margin-left: 59px;
+  }
+  .hero_imgs-cont .right {
+    height: 47vh;
+  }
+  .right-img-div {
+    margin-left: 40px;
+  }
+  .hero_section {
+    margin: 1rem auto;
+  }
+  .center {
+    margin: -2rem auto;
+  }
+  .left-img-div {
+    width: 40vw;
+    height: 20vh;
+  }
+  .hero_imgs-cont .left {
+    transform: translate(34px, 35px);
+  }
+  .hero_imgs-cont .right {
+    height: 30vh;
+  }
+  .hero_imgs-cont .left {
+    transform: translate(34px, 50px);
+  }
+  .hero_imgs-cont-2 .left-2 {
+    transform: translate(-35px, 50px);
+  }
+  .video button {
+    background-color: var(--blue);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .video button i {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center {
+    margin: 0rem auto;
+    padding: 0rem;
+  }
+  .footer {
+    gap: 50px;
+  }
+  .footer-section {
+    padding: 10px;
+  }
+  .part-1 .icons {
+    margin-top: 15px;
+  }
+  .inp {
+    margin-top: 14px;
+  }
+  .footer-bar .footer-menu {
+    display: none;
+  }
+  .footer-bar .branding {
+    flex-direction: row-reverse;
+  }
+  .footer-section .footer-heading {
+    font-size: 1rem;
+  }
+  .footer-section {
+    font-size: 0.5rem;
+  }
+  .footer h3 p {
+    font-size: 1rem;
+  }
+  .jobs {
+    flex-direction: column;
+  }
+  .jobs .job-image {
+    width: 100%;
+    height: 40%;
+  }
+
+  .jobs .job-text {
+    width: 100%;
+    height: 40%;
+  }
+  .job-text h2 {
+    width: 80%;
+  }
+  .jobs-section {
+    margin: 0 auto 0;
+    height: 100vh;
+    width: 94vw;
+  }
+  .work-section .work {
+    height: 25vh;
+    width: 90%;
+  }
+  .employee-images .emp-l-img {
+    width: 35%;
+    height: 40%;
+    transform: translate(8%, 5%);
+  }
+  .employee-images .emp-r-img {
+    transform: translateY(-5rem);
+    height: 60%;
+    width: 40%;
+  }
+  .employees-section {
+    margin: 1rem 0;
+  }
+  .employess-background {
+    width: 70%;
+    height: 40vh;
+    background-color: var(--light-pink);
+    margin: 0 auto;
+  }
+  .footer-section{
+    margin: -10rem auto 0;
+  }
+
+}
